@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+#php_value display_error 1
+php_flag   display_errors       Off
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^synejy\.com [NC]
+RewriteRule (.*) http://www.synejy.com$1 [R=301,L,NC]
+RewriteRule !public|3dparty|symon|\.(js|ico|gif|jpg|png|css|swf|pdf|htm)$ x.php

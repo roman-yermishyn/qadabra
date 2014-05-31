@@ -1,0 +1,54 @@
+
+/*Login form*/
+.login-qarabra {background-color: #f6f6f6; border-radius: 5px;  padding: 30px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.2); width: 405px; font-family: Arial, Tahoma, sans-serif; }
+.login-qarabra a {text-decoration: none;}
+.login-qarabra a:hover {color:#009600;}
+.login-qarabra .headr .media h1 {margin:14px 0 0 20px; font-weight: normal; color:#00b500; font-size: 18pt;}
+.login-qarabra .headr {margin-bottom: 15px;}
+.login-qarabra form .form-line label {color:#373737}
+.login-qarabra .form-line .control-label {width: 75px; font-size: 10.5pt; padding-top: 6px;}
+.login-qarabra .form-line label {font-size: 10.5pt;}
+.login-qarabra .form-line .controls.pl {padding:10px 0 0 75px;}
+.login-qarabra .form-line {margin-bottom: 5px;}
+.login-qarabra .form-line .forgot-pass {margin-top: 5px;}
+.login-qarabra .form-line .forgot-pass a {color:#00b500; font-size: 9pt;}
+.sign-up {margin-top: 28px; color: #373737;font-size: 11pt;}
+.sign-up a {font-weight: bold; color:#00b400;}
+.login-qarabra .form-line:last-child {margin-bottom: 0;}
+
+.login-qarabra .input-block-level { display: block; width: 100%; min-height: 30px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.login-qarabra button, .login-qarabra input { margin: 0; font-size: 100%; vertical-align: middle; }
+.login-qarabra button, .login-qarabra input { *overflow: visible; line-height: normal; }
+.login-qarabra button::-moz-focus-inner, input::-moz-focus-inner { padding: 0; border: 0; }
+.login-qarabra button { -webkit-appearance: button; cursor: pointer; }
+.login-qarabra button { cursor: pointer; }
+.login-qarabra label { display: block; margin-bottom: 5px; }
+
+.login-qarabra input { display: inline-block; height: 20px; padding: 4px 6px; font-size: 14px; line-height: 20px; color: #fff; border-radius: 4px; vertical-align: middle; background-color: #fdfdfd; border: 1px solid #ececec; -webkit-transition: border linear .2s, box-shadow linear .2s; -moz-transition: border linear .2s, box-shadow linear .2s; -o-transition: border linear .2s, box-shadow linear .2s; transition: border linear .2s, box-shadow linear .2s; text-indent: 6px; margin-bottom: 5px; }
+
+.login-qarabra input:focus { border-color: #00b500; outline: 0; outline: thin dotted \9; }
+
+.login-qarabra input[type="radio"], .login-qarabra  input[type="checkbox"] {  *margin-top: 0; margin-top: 1px \9; line-height: normal;  margin: 0 5px 0 0;}
+.login-qarabra .radio, .login-qarabra .checkbox { min-height: 20px; }
+.login-qarabra input { margin-left: 0; }
+.login-qarabra button.btn { width: 100%; }
+.login-qarabra button.btn::-moz-focus-inner { padding: 0; border: 0; }
+.btn { display: inline-block; *display: inline; *zoom: 1; padding: 11px 12px; border-radius: 5px; margin-bottom: 0; font-size: 14px; line-height: 20px; text-align: center; vertical-align: middle; cursor: pointer; color: #fff; background-color: #00b500; *margin-left: .3em; border: 0; -webkit-transition: background-color 0.2s linear; -moz-transition: background-color 0.2s linear; -o-transition: background-color 0.2s linear; transition: background-color 0.2s linear; }
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { color: #ffffff; background-color: #009600; *background-color: #009600;  *border: 0; }
+
+.btn:active, .btn.active { background-color: #32727d \9; }
+
+.btn:hover, .btn:focus { color: #ffffff; text-decoration: none; background-position: 0 -15px; }
+
+.btn:focus { outline: thin dotted #333; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
+
+.btn.active, .btn:active { background-image: none; outline: 0; }
+
+.btn.disabled, .btn[disabled] { cursor: default; background-image: none; opacity: 0.65; filter: alpha(opacity=65); -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+
+.form-line.error-msg label.control-label {color:#ff0000;}
+.form-line.error-msg input {border-color:#ff0000;}
+.form-line.error-msg .controls p {color:#ff0000; font-size: 9pt; position: relative; padding-left: 20px;}
+.form-line.error-msg .controls p i { font-size: 7pt; left: 7px; position: absolute;  top: 2px;}

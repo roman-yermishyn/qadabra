@@ -1,0 +1,36 @@
+.rb-radio-group .table .table-cell {width: 33%; vertical-align: top;}
+.rb-radio-group .table:first-child {margin-bottom: 16px;}
+.rb-radio-group .table + .table {border-top:1px solid #ececec; padding:16px 0 10px;}
+.rb-radio-group .table .table-cell {width: 33.333%; padding-left: 10px;}
+.rb-radio-group .table .table-cell + .table-cell {border-left: 1px solid #ededed;}
+.rb-radio-group .table .rb-radio {margin: 0!important;}
+.rb-radio-group .table .form-size {padding: 18px 0 0 20px;}
+.rb-radio-group .table .form-size > div {border:3px solid #a5a5a5; background-color: #e8e8e8}
+.rb-radio-group .table .form-size.size1 > div {width: 119px; height: 15px; }
+.rb-radio-group .table .form-size.size2 > div {width: 76px; height: 10px; }
+.rb-radio-group .table .form-size.size3 > div {width: 49px; height: 41px; }
+.rb-radio-group .table .form-size.size4 > div {width: 15px; height: 54px; }
+.rb-radio-group .table .form-size.size5 > div {width: 11px; height: 54px; }
+.rb-radio-group .rb-radio-check {width: 20px;}
+
+.rb-radio-group .rb-radio-checked .form-size > div {border-color:#ff007a; background-color: #e8e8e8} 
+.table {display: table; width: 100%}
+.table-cell {display: table-cell;}
+
+
+.pull-left {float: left;}
+.pull-right {float: right;}
+.media {overflow: hidden;}
+.b-box { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: block;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
